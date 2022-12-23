@@ -70,9 +70,9 @@
  color: aliceblue;
  border: 0;
 }
-/* #but1id:hover{
-    padding: 20px 39px;
-} */
+#but1id:hover{
+    transform: scale(1.02);
+}
 #but2id{
     background: none;
     border: 1;
@@ -81,9 +81,10 @@
     border-style:groove ;
 
 }
-/* #but2id:hover{
-    padding: 20px 39px;
-} */
+#but2id:hover{
+    transform: scale(1.02);
+}
+
 #endline{
     padding-top: 36px;
     color: aliceblue;
@@ -327,4 +328,14 @@
 }
 #icoimg{
 width: 230px;
+}
+
+#but3id:hover{
+    transform: scale(1.02);
+}
+#but4id:hover{
+    transform: scale(1.02);
+}
+.viewplans:hover{
+    transform: scale(1.05);
 }
